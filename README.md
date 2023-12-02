@@ -35,18 +35,18 @@ Käivitamine ja Dockeri sql andmebaasi loomine peale repositooriumi kloonimist:
 docker desktop https://www.docker.com/products/docker-desktop/
 
 Visual studio code kaustast avatud terminalis:
-npm install
-npm install mysql2
-docker run -p 3306:3306 -d -v data:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=mysecret-pw mysql
+npm install,
+npm install mysql2,
+docker run -p 3306:3306 -d -v data:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=mysecret-pw mysql,
 
 kus järgnevad elemendid tähistavad:
--p 3306:3306 - portide suunamine
--d - konteineri käivitamine taustal
--v data:/var/lib/mysql - andmete salvestamine oma failisüsteemi
--e MYSQL_ROOT_PASSWORD=mysecret-pw - MySQL-i parool
-mysql - image
+-p 3306:3306 - portide suunamine,
+-d - konteineri käivitamine taustal,
+-v data:/var/lib/mysql - andmete salvestamine oma failisüsteemi,
+-e MYSQL_ROOT_PASSWORD=mysecret-pw - MySQL-i parool,
+mysql - image,
 
-Edasi dockeris Actions all - open in terminal
-Edasi terminalis - mysql -u root -p, sisestad parooli mysecret-pw
+Edasi dockeris Actions all - open in terminal,
+Edasi terminalis - mysql -u root -p, sisestad parooli mysecret-pw,
 kopeerid repositooriumis oleva SQL kaustas init.sql sisu ning siis seed.sql sisu, mis loob vastava andmebaasi, kui seda juba pole loodud.
 
