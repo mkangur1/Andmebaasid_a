@@ -13,7 +13,7 @@ Andmebaasi esialgne sisu (default), on sql kaustas seed.sql failis.
 https://github.com/mkangur1/Andmebaasid_a/tree/main/Varuosad_API/sql
 
 [Andmebaasi loomine](https://github.com/mkangur1/Andmebaasid_a/blob/main/Varuosad_API/sql/init.sql)
-[Andbemaasi andmete sisestamine](https://github.com/mkangur1/Andmebaasid_a/blob/main/Varuosad_API/sql/seed.sql)
+[Andmebaasi andmete sisestamine](https://github.com/mkangur1/Andmebaasid_a/blob/main/Varuosad_API/sql/seed.sql)
 
 Iga ressursi loomisel, muutmisel, kustutamisel, kuvamisel id vm järgi kasutatakse mysql2.
 Ressursid asuvad komponentide (components) kaustas, igal Servicel, kus on sees vastav SQL käsk, on lisaks ka kaustas esindatud kontroller ning moodul:
