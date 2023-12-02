@@ -8,7 +8,8 @@ Neil on oma korda küljes tootjad ning staatused.
 Andmebaas on loodud lokaalselt Dockeri baasile.
 
 SQL käsud andmebaasi ja tabelite loomiseks on sql kaustas init.sql failis.
-Andbemaasi esialgne sisu (default), on sql kaustas seed.sql failis.
+Andmebaasi esialgne sisu (default), on sql kaustas seed.sql failis.
+
 https://github.com/mkangur1/Andmebaasid_a/tree/main/Varuosad_API/sql
 
 [Andmebaasi loomine](https://github.com/mkangur1/Andmebaasid_a/blob/main/Varuosad_API/sql/init.sql)
@@ -16,6 +17,7 @@ https://github.com/mkangur1/Andmebaasid_a/tree/main/Varuosad_API/sql
 
 Iga ressursi loomisel, muutmisel, kustutamisel, kuvamisel id vm järgi kasutatakse mysql2.
 Ressursid asuvad komponentide (components) kaustas, igal Servicel, kus on sees vastav SQL käsk, on lisaks ka kaustas esindatud kontroller ning moodul:
+
 https://github.com/mkangur1/Andmebaasid_a/tree/main/Varuosad_API/src/components
 
 [Manufacturer](https://github.com/mkangur1/Andmebaasid_a/tree/main/Varuosad_API/src/components/manufacturer)
